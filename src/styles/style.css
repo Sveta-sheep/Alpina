@@ -1,0 +1,1363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background: url("../assets/images/Rectangle\ 1.png") no-repeat center center;
+    padding: 15px 90px 0 90px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.menu-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+.menu-logobar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 4px;
+}
+
+.menu-logobar a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: "Paytone One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    vertical-align: middle;
+    color: #ffffff;
+    transition: 0.1s;
+}
+
+a:hover {
+    border-bottom: 4px solid #fff;
+}
+
+.switch-wrapper {
+    background-color: #c4c4c4;
+    border-radius: 50px;
+    padding: 3px 5px 3px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 131px;
+    height: 35px;
+}
+
+.switch-wrapper .descriptions {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 149.8%;
+    color: #2d2828;
+    padding: 0;
+}
+
+.switch {
+    background: #ff1640;
+    border-radius: 50px;
+    padding: 1px 1px 1px 20px;
+}
+
+.switch .circle {
+    background: #ffffff;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    transition: 0.15s;
+}
+
+.switch .circle:hover {
+    background-color: #f0f0f0;
+}
+
+.header-main-wrapper {
+    padding: 94px 148px 0 148px;
+    height: 100%;
+}
+
+.header-main {
+    background: linear-gradient(180deg,
+            rgba(50, 42, 39, 0) 0%,
+            rgba(45, 40, 40, 0.1) 0%,
+            #2d2828 100%,
+            #2d2828 0%,
+            #2d2828 0%,
+            #2d2828 0%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.descriptions {
+    padding: 76px 1px 0 1px;
+}
+
+.title-info {
+    margin-left: 65px;
+}
+
+h1 {
+    font-family: Paytone One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 89px;
+}
+
+h2 {
+    font-family: Paytone One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.title-info p {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 149.8%;
+    margin-top: 30px;
+}
+
+form {
+    margin: 25px 0 120px 0;
+}
+
+input {
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: transparent;
+    font-family: Paytone One;
+    height: 36px;
+    padding: 9px 9px 9px 35px;
+    margin-right: 20px;
+    transition: 0.15s;
+}
+
+input:active,
+input:hover,
+input:focus {
+    outline: none;
+    border-color: green;
+}
+
+input::placeholder {
+    font-family: Paytone One;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+button.primary {
+    font-family: Paytone One;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: transparent;
+    padding: 9px 22px;
+    border: 2px solid #ff1640;
+    border-radius: 50px;
+    transition: 0.15s;
+}
+
+button:active,
+button:hover,
+button:focus {
+    outline: none;
+    border-color: #fa4d6d;
+}
+
+button.primary:active {
+    color: #ffffff;
+}
+
+hr {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    border: none;
+}
+
+.image-coffee {
+    background: url("../assets/images/новый\проект\1png");
+    background-size: 340px 330px;
+    position: absolute;
+    width: 340px;
+    height: 330px;
+    left: 740px;
+    top: 218px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 108px 0px 80px;
+}
+
+main {
+    background: url("../assets/images/Rectangle\ 2.png") #c4c4c4;
+    background-size: 100%;
+    width: 100%;
+    padding: 0 238px 0 238px;
+}
+
+.main-container {
+    background: linear-gradient(180deg,
+            rgba(50, 42, 39, 0) 0%,
+            rgba(45, 40, 40, 0.85) 0%,
+            #2d2828 49.48%,
+            #2d2828 60%,
+            #2d2828 82.29%,
+            #2d2828 0%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding: 70px 92px 115px 92px;
+}
+
+.marketing-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 78px;
+    position: relative;
+}
+
+.marketing-image-higher {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.marketing-load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 61px 0;
+}
+
+.marketing-load p {
+    font-family: Paytone One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    text-transform: uppercase;
+    margin-right: 6px;
+}
+
+.button-of-thread {
+    background: linear-gradient(180deg, #864a23 0%, #6a3a1b 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 7px;
+    border: none;
+    margin-left: 6px;
+}
+
+.button-of-thread p {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 149.8%;
+    text-transform: initial;
+    margin-left: 5px;
+}
+
+.box-one {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-higher {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-higher div {
+    display: flex;
+    align-items: center;
+}
+
+.one {
+    background: #ff1640;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+
+.one span {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.notifications {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 149.8%;
+    margin-left: 6px;
+}
+
+.button-dismiss {
+    background: url(/src/assets/images/rectangle\14png), #c4c4c4;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-dismiss p {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2d2828;
+    margin: 4px 14px 7px 7px;
+}
+
+.button-dismiss img {
+    margin: 5px 0 5px 8px;
+}
+
+.text {
+    background: url("/src/assets/images/rectangle\13png"), #b5b6b8;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 16px 23px 17px;
+    margin-top: 25px;
+}
+
+.avatar {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+}
+
+.second-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.recources-info {
+    margin-left: 8px;
+}
+
+.name {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 149.8%;
+    color: #2d2828;
+}
+
+.timestamp {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 149.8%;
+    color: rgba(45, 40, 40, 0.7);
+}
+
+.text-info {
+    margin-left: 8px;
+}
+
+.marketing-images-imgWrapper {
+    width: 40%;
+}
+
+.text-info h2 {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 149.8%;
+    color: #2d2828;
+}
+
+.text-info p {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 149.8%;
+    color: #2d2828;
+    margin-top: 11px;
+}
+
+.start-a-thread {
+    position: relative;
+    top: 50px;
+    width: 45%;
+}
+
+.start-a-thread h2 {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.start-a-thread p {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1vw;
+    margin-top: 19px;
+}
+
+.recent {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 149.8%;
+}
+
+.second-comment {
+    margin-top: 71px;
+}
+
+.brends-info {
+    padding: 0 61px 108px 61px;
+}
+
+.brends-info-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+
+}
+
+.brends-info-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.brends-text {
+    width: 30%;
+}
+
+.brend-account {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.brends-avatar {
+    width: 65px;
+    height: 65px;
+    margin-right: 16px;
+}
+
+.brends-name {
+    position: absolute;
+    left: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 115px;
+}
+
+.brends-text p {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 149.8%;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.circle-one {
+    background: #c4c4c4;
+    border: 1px solid #000000;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.circle-red {
+    background: #ff1640;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3%;
+    z-index: 3;
+    width: 9vw;
+    height: 9vw;
+
+}
+
+footer {
+    background: url("/src/assets/images/footer/footer.png") no-repeat transparent;
+    width: 100%;
+    position: relative;
+    bottom: 90px;
+    background-size: 100%;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 153px 60px 0 56px;
+    z-index: 5;
+}
+
+.alpine {
+    font-family: Paytone One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 63px;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 3;
+    width: 46%;
+}
+
+
+
+
+.explore {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 149.8%;
+}
+
+.add-text {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: calc(149.8% + 5px);
+    margin-top: 22px;
+}
+
+.resources {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 149.8%;
+}
+
+.company {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 149.8%;
+}
+
+.social-network-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.copyright {
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 2px;
+    line-height: 149.8%;
+    text-align: right;
+}
+
+.marketing-images-imgWrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.copyright p:last-child {
+    margin-top: 24px;
+}
+
+.thanks-for-watching {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 44px;
+}
+
+.thanks-for-watching p {
+    font-family: Paytone One;
+    font-style: normal;
+    font-weight: normal;
+    margin-right: 8px;
+    font-size: 28px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.thanks-text {
+    padding: 5px 15px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-text {
+    margin-right: 16px;
+}
+
+@font-face {
+    font-family: "Paytone One";
+    src: url("../assets/fonts/PaytoneOne-Regular.ttf");
+}
+
+/* 1200px
+992px
+768px
+480px
+320px */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    header {
+        padding: 15px 0 0 0;
+    }
+
+    .social-media {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .title-info p {
+        font-size: 15px;
+    }
+
+    .title-info {
+        margin-left: 37px;
+    }
+
+    button.primary {
+        padding: 6px 13px;
+    }
+
+    form {
+        margin-bottom: 95px;
+    }
+
+    main {
+        padding: 0 149px;
+    }
+
+    .marketing-load p {
+        font-size: 18px;
+        margin-right: 2px;
+    }
+
+    .button-of-thread p {
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 149.8%;
+        text-transform: initial;
+        margin-left: 0px;
+    }
+
+    .main-container {
+        padding: 70px 63px 115px 63px;
+    }
+
+    .thanks-for-watching {
+        margin-top: 26px;
+    }
+
+    .thanks-for-watching p {
+        font-size: 23px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    header {
+        padding: 15px 0 0 0;
+    }
+
+    .header-main-wrapper {
+        padding: 94px 30px 0 30px;
+    }
+
+    .social-media {
+        margin: 0;
+    }
+
+    main {
+        padding: 0 30px;
+    }
+
+    .marketing-load p {
+        font-size: 15px;
+    }
+
+    .button-of-thread {
+        padding: 3px 6px;
+    }
+
+    .one {
+        width: 23px;
+        height: 23px;
+    }
+
+    .notifications {
+        font-size: 16px;
+    }
+
+    .button-dismiss p {
+        font-size: 13px;
+    }
+
+    .text {
+        padding: 10px 5px 17px 5px;
+    }
+
+    .switch-wrapper .descriptions {
+        font-size: 14px;
+    }
+
+    .switch .circle {
+        width: 23px;
+        height: 23px;
+    }
+
+    .switch-wrapper {
+        width: 122px;
+    }
+
+    .main-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .start-a-thread p {
+        font-size: 15px;
+    }
+
+    .brends-info-images-wrapper img {
+        width: 120px;
+    }
+
+    .alpine {
+        font-size: 34px;
+    }
+
+    .explore {
+        font-size: 15px;
+    }
+
+    .add-text {
+        font-size: 14px;
+    }
+
+    .footer-info {
+        padding: 102px 12px 0 12px;
+    }
+
+    .copyright-info {
+        width: 19%;
+    }
+
+    .thanks-for-watching {
+        display: none;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    header {
+        padding: 0;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    .brends-info {
+        padding: 0;
+    }
+
+    .footer-info {
+        padding: 0;
+    }
+
+    .header-main-wrapper {
+        padding: 0;
+    }
+
+    .menu-logobar a {
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
+    .social-media {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    .title-info p {
+        margin-top: 0;
+        font-size: 13px;
+    }
+
+    input {
+        padding-right: 0;
+        padding-left: 5px;
+        height: 30px;
+        margin-right: 2px;
+    }
+
+    button.primary {
+        font-size: 9px;
+        line-height: 7px;
+        padding: 9px 4px;
+    }
+
+    .descriptions {
+        padding: 0 1px;
+    }
+
+    form {
+        margin-bottom: 11px;
+    }
+
+    .social-media img {
+        width: 70px;
+    }
+
+    .main-container {
+        padding: 20px 11px 30px 11px;
+    }
+
+    .marketing-load p {
+        font-size: 13px;
+        margin-right: 2px;
+    }
+
+    .marketing-load-image {
+        width: 200px;
+    }
+
+    .one {
+        width: 19px;
+        height: 19px;
+    }
+
+    .one span {
+        font-size: 11px;
+    }
+
+    .notifications {
+        font-size: 12px;
+    }
+
+    .button-dismiss p {
+        font-size: 12px;
+        margin: 0px 6px 2px 1px;
+    }
+
+    .button-dismiss img {
+        margin: 3px 0 4px 5px;
+    }
+
+    .text {
+        margin-top: 16px;
+        padding: 7px 2px 4px 1px;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+
+    .timestamp {
+        font-size: 11px;
+    }
+
+    .text-info h2 {
+        font-size: 14px;
+    }
+
+    .text-info p {
+        margin-top: 0;
+    }
+
+    .avatar {
+        height: 42px;
+    }
+
+    .start-a-thread h2 {
+        font-size: 15px;
+    }
+
+    .start-a-thread p {
+        font-size: 12px;
+    }
+
+    .switch-wrapper {
+        width: 100px;
+        height: 34px;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .switch-wrapper .descriptions {
+        font-size: 12px;
+    }
+
+    .switch .circle {
+        width: 20px;
+        height: 20px;
+    }
+
+    .brends-info-images {
+        margin: 15px 5px;
+    }
+
+    .brends-info-images-wrapper img {
+        width: 100px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .menu-logo {
+        padding: 7px 0 0 7px;
+    }
+
+    .brends-name {
+        position: static;
+        left: 0;
+        top: 0;
+        transform: translateY(0);
+        width: 90px;
+        margin-top: 15px;
+    }
+
+    .brend-account {
+        flex-direction: column;
+    }
+
+    .brends-avatar {
+        margin-right: 0;
+    }
+
+    .brends-name:last-child {
+        width: 100px;
+    }
+
+    .brends-text p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .brends-text:nth-child(2) p {
+        margin-top: 9px;
+    }
+    .brends-text:nth-child(3) p {
+        margin-top: 0px;
+    }
+    .alpine {
+        font-size: 26px;
+    }
+    .explore {
+        font-size: 14px;
+    }
+    .add-text {
+        font-size: 13px;
+    }
+    .resources {
+        font-size: 14px;
+    }
+    .company {
+        font-size: 14px;
+    }
+    .thanks-for-watching {
+        display: none;
+    }
+    .copyright {
+        font-size: 11px;
+    }
+    .copyright:last-child p {
+        margin-top: 6px; 
+    }
+    footer {
+        bottom: 29px;
+    }
+    .brends-info-text {
+        padding-bottom: 75px;
+    }
+    .add-text {
+        margin-top: 0;
+        line-height: normal;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 150px;
+        bottom: 50px;
+    }
+    .footer-info {
+        width: 100%;
+        padding: 6px;
+    }
+    .social-network-icons img {
+        width: 22px;
+    }
+    .social-network-icons img:last-child {
+        width: 12px; 
+    }
+    .footer-text {
+        width: 44%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    header {
+        padding: 0;
+    }
+    .menu-logo {
+        flex-direction: column;
+        align-items: center;
+        padding: 14px 0 5px 14px;
+    }
+    .logo {
+        display: none;
+        margin-right: 0;
+    }
+    .logo img {
+        width: 101px;
+    }
+    .menu-logobar {
+        flex-direction: column;
+        position: static;
+        bottom: 0;
+        align-items: center;
+        padding-left: 12px;    
+    }
+    .menu-logobar a {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 3px;
+    }
+    .header-main-wrapper {
+        padding: 0;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+    h2 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .title-info p {
+        font-size: 12px;
+        margin-top: 3px;
+        text-align: center;
+    }
+    .title-info div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .descriptions {
+        padding: 7px 1px 0 1px;
+    }
+    .title-info {
+        margin-left: 12px;
+    }
+    form {
+        margin: 24px 0 16px 0;
+    }
+    input {
+        padding: 0 0 4px 9px;
+        margin-right: 0;
+        height: 30px;
+    }
+    input::placeholder {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    button.primary {
+        padding: 3px 9px;
+        font-size: 11px;
+        height: 30px;
+    }
+    .social-media {
+        margin: 0;
+    }
+    .social-media img {
+        width: 50px;
+    }
+    main {
+        padding: 0 0 30px 0;
+    }
+    .main-container {
+        padding: 11px 0 32px 0;
+    }
+    .marketing-images {
+        flex-direction: column;
+        padding-top: 191px;
+    }
+    .marketing-images-imgWrapper {
+        width: 72%;
+    }
+    .marketing-load {
+        margin: 40px 0;
+    }
+    .marketing-load-image {
+        display: none;
+    }
+    .marketing-load p {
+        font-size: 11px;
+        line-height: 2px;
+    }
+    .box-one {
+        flex-direction: column;
+    }
+    .body-text {
+        margin-right: 0;
+    }
+    .start-a-thread {
+        top: 20px;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .notifications {
+        font-size: 12px;
+    }
+    .button-dismiss img {
+        margin: 2px 0 2px 4px;
+    }
+    .button-dismiss p {
+        margin: 2px 8px 5px 4px;
+        font-size: 12px;
+    }
+    .text {
+        margin-top: 9px;
+        padding: 9px 4px 13px 2px;
+    }
+    .main-image {
+        width: 93%;
+        height: 93%;
+    }
+    .name {
+        font-size: 13px;
+    }
+    .timestamp {
+        font-size: 10px;
+    }
+    .text-info h2 {
+        font-size: 16px;
+    }
+    .text-info p {
+        font-size: 10px;
+        margin-top: 4px;
+    }
+    .start-a-thread h2 {
+        font-size: 15px;
+    }
+    .start-a-thread p {
+        font-size: 9px;
+        margin-top: 5px;
+        line-height: 13px;
+    }
+    .recent {
+        font-size: 16px;
+    }
+    .switch .circle {
+        width: 20px;
+        height: 20px;
+    }
+    .switch-wrapper .descriptions {
+        font-size: 12px;
+    }
+    .switch-wrapper {
+        padding-left: 6px;
+        width: 98px;
+        height: 32px;
+    }
+    .brends-info {
+        padding: 0 2px;
+    }
+    .brends-info-images {
+        margin: 20px 0;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .brends-info-images-wrapper img {
+        width: 106px;
+    }
+    .brend-account {
+        justify-content: center;
+    }
+    .brends-name {
+        width: 91px;
+        top: 50%;
+        left: 20%;
+        position: static;
+        transform: none;
+    }
+    .brends-avatar {
+        width: 56px;
+        height: 56px;
+    }
+    .brends-text p {
+        margin: 13px 0 36px 0;
+        font-size: 13px;
+        text-align: center;
+    }
+    .brends-text {
+        width: 100%;
+    }
+    footer {
+        bottom: 24px;
+    }
+    .thanks-for-watching {
+        display: none;
+    }
+    .footer-info {
+        padding: 32px 10px 0 10px;
+
+    }
+    .footer-text div {
+        margin-right: 8px;
+    }
+    .explore {
+        font-size: 11px;
+    }
+    .add-text {
+        font-size: 8px;
+        margin-top: 0;
+    }
+    .resources {
+        font-size: 11px;    
+    }
+    .company {
+        font-size: 11px;
+    }
+    .alpine {
+        display: none;
+    }
+    .social-network-icons {
+        justify-content: flex-end;
+    }
+    .social-network-icons img {
+        width: 18px;
+        padding-right: 3px;
+    }
+    .copyright {
+        font-size: 9px;
+        margin-top: 2px;
+    }
+    .copyright p:last-child {
+        margin-top: 0;
+    }
+    .social-network-icons img:last-child {
+        width: 12px;
+    }
+    .brends-info-text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .circle-red {
+        top: 4%;
+    }
+
+}
