@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: url("../assets/images/Rectangle\ 1.png") no-repeat center center;
+    background: url("../assets/images/Rectangle-1.webp") no-repeat center center;
     padding: 15px 90px 0 90px;
     overflow: hidden;
     background-size: cover;
@@ -229,7 +229,7 @@ hr {
 }
 
 main {
-    background: url("../assets/images/Rectangle\ 2.png") #c4c4c4;
+    background: url("../assets/images/Rectangle-2.webp") #c4c4c4;
     background-size: 100%;
     width: 100%;
     padding: 0 238px 0 238px;
@@ -549,7 +549,7 @@ main {
 }
 
 footer {
-    background: url("../assets/images/footer/footer.png") no-repeat transparent;
+    background: url("../assets/images/footer.webp") no-repeat transparent;
     width: 100%;
     position: relative;
     bottom: 90px;
