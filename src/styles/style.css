@@ -549,7 +549,7 @@ main {
 }
 
 footer {
-    background: url("/src/assets/images/footer/footer.png") no-repeat transparent;
+    background: url("../assets/images/footer/footer.png") no-repeat transparent;
     width: 100%;
     position: relative;
     bottom: 90px;
