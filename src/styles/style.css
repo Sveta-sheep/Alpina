@@ -679,6 +679,7 @@ footer {
 @font-face {
     font-family: "Paytone One";
     src: url("../assets/fonts/PaytoneOne-Regular.ttf");
+    font-display: fallback;
 }
 
 /* 1200px
